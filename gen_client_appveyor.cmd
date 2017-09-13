@@ -1,5 +1,6 @@
-rmdir /S /Q clients\Itofinity.Appveyor.Rest.Refit
+set PROJ_NAME=Itofinity.Appveyor.Rest.Refit
+rem rmdir /S /Q ..\%PROJ_NAME%
 call gen_client.cmd ^
 -i https://raw.githubusercontent.com/kevinoid/appveyor-swagger/master/swagger.yaml ^
 -o ^
-clients/Itofinity.Appveyor.Rest.Refit --api-package Api --model-package Model -DpackageName=Itofinity.Appveyor.Rest.Refit
+../%PROJ_NAME% --api-package Api --model-package Model -DpackageName=%PROJ_NAME%

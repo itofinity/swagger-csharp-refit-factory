@@ -1,1 +1,0 @@
-copy C:\Users\mminn\Source\bitbucket.org\mminns\swagger-csharp-refit\target\CSharpRefitCodegen-swagger-codegen-1.0.0.jar .\tools\
