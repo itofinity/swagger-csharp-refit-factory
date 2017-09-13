@@ -1,5 +1,6 @@
-Remove-Item "$PSScriptRoot\tools\*"
+Remove-Item "$PSScriptRoot\tools\" -Recurse -ErrorAction Ignore
 
+New-Item "$PSScriptRoot\tools" -type directory
 
 $start_time = Get-Date
 Invoke-WebRequest -Uri "http://central.maven.org/maven2/io/swagger/swagger-codegen-cli/2.2.3/swagger-codegen-cli-2.2.3.jar" -OutFile "$PSScriptRoot\tools\swagger-codegen-cli-2.2.3.jar"
