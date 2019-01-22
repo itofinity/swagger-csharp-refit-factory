@@ -1,0 +1,2 @@
+#!/bin/sh
+java -cp "./tools/swagger-codegen-generators-1.0.5-SNAPSHOT.jar:./tools/swagger-codegen-cli-3.0.4.jar"  io.swagger.codegen.v3.cli.SwaggerCodegen generate -l csharprefit   -i %2   -o ../atlassianlabs-%1-rest-client  -c %1-swagger-config.json

@@ -1,0 +1,1 @@
+call gen_client.cmd confluence https://developer.atlassian.com/cloud/confluence/swagger.v3.json

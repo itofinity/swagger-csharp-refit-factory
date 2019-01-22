@@ -1,0 +1,1 @@
+call gen_client.cmd appveyor https://raw.githubusercontent.com/kevinoid/appveyor-swagger/master/swagger.yaml

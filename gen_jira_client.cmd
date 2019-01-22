@@ -1,0 +1,1 @@
+call gen_client.cmd jira https://developer.atlassian.com/cloud/jira/platform/swagger-v3.v3.json

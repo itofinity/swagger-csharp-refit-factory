@@ -1,0 +1,1 @@
+call gen_client.cmd bitbucket https://api.bitbucket.org/swagger.json

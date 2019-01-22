@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Swagger Petstore
+
+This is a sample server Petstore server.  You can find out more about Swagger at [http://swagger.io](http://swagger.io) or on [irc.freenode.net, #swagger](http://swagger.io/irc/).  For this sample, you can use the api key `special-key` to test the authorization filters.
+
+OpenAPI spec version: 1.0.0
+Contact: apiteam@swagger.io
+-->
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netstandard2.0</TargetFramework>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <Description>Swagger Petstore
+            This is a sample server Petstore server.  You can find out more about Swagger at [http://swagger.io](http://swagger.io) or on [irc.freenode.net, #swagger](http://swagger.io/irc/).  For this sample, you can use the api key `special-key` to test the authorization filters.
+            OpenAPI spec version: 1.0.0
+            Contact: apiteam@swagger.io
+        </Description>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Refit" Version="4.0.0-build.16" />
+        <PackageReference Include="System.ComponentModel.Annotations" Version="4.4.0-preview2-25405-01" />
+    </ItemGroup>
+
+    <Import Project="..\IO.Swagger.Shared\IO.Swagger.Shared.projitems" Label="Shared" />
+
+</Project>
